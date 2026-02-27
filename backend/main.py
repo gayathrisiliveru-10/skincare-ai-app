@@ -7,7 +7,7 @@ from datetime import datetime
 import uuid
 
 # Import models and agents
-from models.schemas import *
+from backend.models.schemas import *
 from database.connection import get_db, engine, Base
 from database.models import User, ProductDB, FeedbackDB, ConversationHistory
 from agents.orchestrator import OrchestratorAgent
